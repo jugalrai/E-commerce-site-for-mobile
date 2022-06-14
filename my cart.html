@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="externalCSS.css">
+
+    </head>
+    <title>My cart</title>
+
+    <body>
+        <div class="main">
+            <ul style="list-style: none;">
+                <li class="MenuProduct">
+                    <a href="product.html">product</a>
+                </li>
+                <li class="MenuBlog">
+                    <a href="blog.html">blog</a>
+                </li>
+                <li class="MenuMyCart">
+                    <a href="my cart.html">my cart</a>
+                </li>
+                <li class="MenuHome">
+                    <a href="index.html">home</a>
+                </li>
+            </ul>
+            <span class="Logo">Downtown Dealers</span>
+            <div class="i12128"></div>
+            <span class="i12128gb">iphone 12 128GB</span>
+            <span class="Rsi12128gb">Rs 139000</span>
+            <div class="sa53"></div>
+            <span class="sa531">Samsung A53</span>
+            <span class="Rssa53">Rs 59000</span>
+            <span class="wishlists">your wishlists</span>
+            <div class="purchase" id="iphone 12 128GB">
+                <button type="button"><!--creating purchase button-->
+                    <a href="Purchase.html">Purchase</a>
+                </button>
+            </div>
+            <div class="purchase2" id="samsung A53">
+                <button type="button">
+                    <a href="Purchase.html">Purchase</a>
+                </button>
+            </div>
+        </div>
+    </body>
+</html> <br /><br />
+
+<style>
+    * .purchase {
+        position: absolute;
+        top: 550px;
+        left: 950px;
+        cursor: pointer;
+    }
+
+    .purchase2 {
+        position: absolute;
+        top: 550px;
+        left: 530px;
+        cursor: pointer;
+    }
+
+    
+    .i12128 /*first letter of the phone and numbers after (iphone 12 128)*/
+     {
+        width: 204px;
+        height: 221px;
+        background: url(iphone\ 12\ 128GB.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 211px;
+        left: 516px;
+        overflow: hidden;
+    }
+
+    .i12128gb {
+        width: 178px;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 453px;
+        left: 527px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Poppins;
+        font-weight: Medium;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .Rsi12128gb /*rupees then first letter of the phone and numbers after (iphone 12 128)*/
+    {
+        width: 111px;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 492px;
+        left: 527px;
+        font-family: Poppins;
+        font-weight: Medium;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .sa53 {
+        width: 204px;
+        height: 221px;
+        background: url(samsung\ a53.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 211px;
+        left: 927px;
+        overflow: hidden;
+    }
+
+    .sa531 {
+        width: 178px;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 453px;
+        left: 926px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Poppins;
+        font-weight: Medium;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .Rssa53 {
+        width: 111px;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 492px;
+        left: 938px;
+        font-family: Poppins;
+        font-weight: Medium;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .wishlists {
+        width: 200px;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 302px;
+        left: 124px;
+        font-family: Poppins;
+        font-weight: Bold;
+        font-size: 40px;
+        opacity: 1;
+        text-align: left;
+    }
+</style>

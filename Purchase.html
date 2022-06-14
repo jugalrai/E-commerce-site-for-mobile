@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="externalCSS.css">
+        <script>/* validating form with javascript*/
+            function validateform() {
+                var name = document.myform.name.value;
+                var password = document.myform.password.value;
+
+                if (name == null || name == "") {
+                    alert("Name can't be blank");
+                    return false;
+                } else if (password.length < 6) {
+                    alert("Password must be at least 6 characters long.");
+                    return false;
+                }
+            }  
+        </script>
+    </head>
+    <body>
+        <title>My cart
+        </title> 
+        <div class="main">
+            <ul style="list-style: none;">
+                <li class="MenuProduct">
+                    <a href="product.html">product</a>
+                </li>
+                <li class="MenuBlog">
+                    <a href="blog.html">blog</a>
+                </li>
+                <li class="MenuMyCart">
+                    <a href="my cart.html">my cart</a>
+                </li>
+                <li class="MenuHome">
+                    <a href="index.html">home</a>
+                </li>
+            </ul>
+        </div>            
+            <span class="Logo">Downtown Dealers</span>
+            <form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" div class="mycartform" >
+                Y-O-U-R N-A-M-E: <input type="text" name="name"><br /><br/> <!--defining the input type-->
+                <!--Y-O-U-R N-A-M-E shows infront of the input box-->
+                P-A-S-S-W-O-R-D: <input type="password" name="password"><br /><br/>
+            <input type="submit" value="PROCEED">
+            </form> 
+        <div class="purchaseBG">
+        </div>
+    </body>
+</html>
+
+    <style>
+        .purchaseBG {
+            width: 1544px;
+            height: 885px;
+            background: url(purchase\ bg.jpeg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            position: relative;
+            top:10px;
+            left: 16px;
+            z-index: 0;
+            
+            
+        }
+        .mycartform {
+            position: absolute;
+            top: 350px;
+            left: 140px;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            z-index: 1;
+        }
+
+    </style>

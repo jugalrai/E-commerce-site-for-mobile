@@ -1,0 +1,142 @@
+
+
+  body {
+    font-size: 14px;
+  }
+
+  .main {
+    width: 100%;
+    height: 917px;
+    background:linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #7a94d2, #5f8dc0, #4a84ab, #2e677e, #1e4a54, #152e30, #071312);
+    padding: 10px 10px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    
+  }
+
+  .homeIntr {
+    width: 422px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 338px;
+    left: 196px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+    
+  }
+
+
+  .SignInHomeButton {
+    width: 81px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 660px;
+    left: 915px;
+  }
+  
+  
+  .SignInHomeButton:hover {
+  color: #ffffff;
+  background-color: #b3d2f1;
+  box-shadow: -2px -1px 8px 0px #db0202, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+ }
+ 
+ .SignInHomeButton:active {
+  box-shadow: none;
+ }
+
+  .MenuProduct {
+    width: 99px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 93px;
+    left: 850px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+    background: rgba(250, 250, 250, 0.692);
+    border-radius:10%;
+    text-align: center;
+    
+  } 
+
+  .MenuBlog {
+    width: 76px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 92px;
+    left: 997px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius:20%;
+    text-align: center;
+  }
+
+  .MenuMyCart {
+    width: 99px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 92px;
+    left: 1131px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius:20%;
+    text-align: center;
+  }
+
+
+  .MenuHome {
+    width: 79px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 92px;
+    left: 680px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius:20%;
+    text-align: center;
+  }
+
+  .Logo {
+    width: 286px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 58px;
+    left: 81px;
+    font-family: Farro;
+    font-weight: Regular;
+    font-size: 60px;
+    text-align: left;
+    z-index: 1;
+  }
